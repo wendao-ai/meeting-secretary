@@ -233,7 +233,7 @@ python scripts/split_long_transcript.py meeting.md -o segments/
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/yourusername/meeting-secretary.git
+git clone https://github.com/wendao-ai/meeting-secretary.git
 cd meeting-secretary
 ```
 
