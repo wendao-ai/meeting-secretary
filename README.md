@@ -229,30 +229,12 @@ python scripts/split_long_transcript.py meeting.md -o segments/
 
 ## 📦 安装使用
 
-### 作为 OpenClaw Skill 使用
-
-1. 克隆仓库：
-```bash
-git clone https://github.com/wendao-ai/meeting-secretary.git
-cd meeting-secretary
-```
-
-2. 安装到 OpenClaw：
-```bash
-cp -r . ~/.openclaw/workspace/skills/meeting-secretary/
-```
-
-3. 在 OpenClaw 中使用：
-```
-请帮我分析这场会议：
-[粘贴转录文本]
-```
-
-### 独立使用
 
 ```bash
-# 处理长文本
-python scripts/split_long_transcript.py long_meeting.md -o segments/
+npx skills find wendao-ai/meeting-secretary
+
+# or 
+clawhub install meeting-secretary
 ```
 
 ---
